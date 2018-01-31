@@ -1,0 +1,33 @@
+.chef-footer {
+  color: #fff;
+  height: 150px;
+  font-family: "Circular Medium";
+  background: #f45a5a;
+}
+
+.chef-footer-form {
+  margin-left: 100px;
+  border: 1px solid #fff;
+  height: 50px;
+}
+
+.chef-footer-form > input {
+  padding-left: 10px;
+  color: #fff;
+  height: 100%;
+  background: #f89091;
+  border: 0px solid transparent;
+}
+
+.chef-footer-form > input:focus {
+  border: 0px solid transparent;
+  outline: none;
+}
+
+.chef-designer-footer {
+  background: #292929;
+  height: 30px;
+  padding: 0px 30px;
+  color: #fff;
+  font-size: 12px;
+}
