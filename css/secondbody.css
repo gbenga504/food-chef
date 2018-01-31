@@ -1,0 +1,84 @@
+/**
+* Foods 
+*/
+.chef-body-foods__container {
+  flex-wrap: wrap;
+  margin: 0px 5px;
+}
+
+.chef-body-foods {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.chef-body-foods > span {
+  font-size: 20px;
+  color: #fff;
+}
+
+.chef-body-foods__food-sub-title {
+  font-family: "Circular Medium";
+}
+
+.chef-body-foods__food1 {
+  background-image: url("../images/food1.jpg");
+}
+
+.chef-body-foods__food2 {
+  background-image: url("../images/food2.jpg");
+}
+
+.chef-body-foods__food3 {
+  background-image: url("../images/food3.jpg");
+}
+
+.chef-body-foods__food4 {
+  background-image: url("../images/food4.jpg");
+}
+
+.chef-body-foods__food5 {
+  background-image: url("../images/food5.jpg");
+}
+
+.chef-body-foods__food6 {
+  background-image: url("../images/food6.jpg");
+}
+
+.chef-body-foods__food7 {
+  background-image: url("../images/food7.jpg");
+}
+
+.chef-body-foods__food8 {
+  background-image: url("../images/food8.jpg");
+}
+
+.chef-body-foods__food9 {
+  background-image: url("../images/food9.jpg");
+}
+
+.chef-body-foods__food10 {
+  background-image: url("../images/food10.jpg");
+}
+
+.chef-body-foods__food11 {
+  background-image: url("../images/food11.jpg");
+}
+
+.chef-body-foods__food12 {
+  background-image: url("../images/food12.jpg");
+}
+
+.chef-body-foods:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+}
