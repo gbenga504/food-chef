@@ -71,10 +71,33 @@
   flex-basis: 50%;
 }
 
-.chef-body-services__panel-compartment--right{
+.chef-body-services__panel-compartment--right {
   margin-left: 100px;
 }
 
 .chef-body-services__food {
   margin-left: 50px;
+}
+
+/**
+* Team section or component 
+*/
+.chef-body-team__name {
+  margin: 20px 0px;
+  font-family: "Circular Medium";
+}
+
+.chef-body-team__content {
+  line-height: 20px;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+
+.chef-body-team__container {
+  width: 250px;
+}
+
+.chef-body-team__container > img {
+  height: 200px;
+  width: 100%;
 }
