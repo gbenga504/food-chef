@@ -32,279 +32,307 @@
           <li>CONTACT</li>
         </ul>
       </div>
-      <!-- The slide header component of the header -->
-      <div class="d-flex flex-column justify-content-between chef-slide-header">
-        <div class="d-flex flex-column">
-          <span class="chef-slide-header__title chef-slide-header__text">WELCOME TO OUR RESTAURANT</span>
-          <span class="chef-slide-header__sub-title chef-slide-header__text">Lorem ispum dolor sit</span>
+
+      <div id="chefSliders" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#chefSliders" data-slide-to="0" class="active"></li>
+          <li data-target="#chefSliders" data-slide-to="1"></li>
+          <li data-target="#chefSliders" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active chef-slide-header">
+            <img class="d-block w-100" src="images/slide1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="chef-caption-container d-flex flex-column">
+                <span class="chef-slide-header__title chef-slide-header__text">WELCOME TO OUR RESTAURANT</span>
+                <span class="align-self-start chef-slide-header__sub-title chef-slide-header__text">Lorem ispum dolor sit</span>
+                <div class="d-flex">
+                  <a class="d-flex justify-content-between align-items-center chef-theme-button" href="#">
+                    <span>
+                      Learn More
+                    </span>
+                  </a>
+                  <div class="chef-slide-header__line-seperator align-self-center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/slide3.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+      <!-- End of Header component -->
+
+
+      <!-- First Body component -->
+      <div class="d-flex flex-column chef-first-body">
+        <!-- About Us Section component -->
+        <div class="d-flex flex-column chef-body-container">
+          <span class="chef-body-container__title text-center">About Us</span>
+          <span class="chef-about__title text-center">About out restaurant food</span>
+          <span class="chef-about__sub-title text-center">Lorem ipsumn dolatur isotrye shababala</span>
+
+          <!-- Board component of the About component -->
+          <div class="d-flex chef-about__board">
+            <div class="d-flex flex-column board about1 align-items-center justify-content-center">
+              <span class="board-title text-center"> Lorem ispum lorago parado </span>
+              <span class="board-content text-center">Lorem iadh lorago apagash shakakauk manuae kolanbdhd sjauyt hah gofofo bafofo</span>
+            </div>
+            <img src="images/about1.jpg" width="300px" height="250px" />
+            <div class="d-flex flex-column board about2 align-items-center justify-content-center">
+              <span class="board-title text-center"> Lorem ispum lorago parado </span>
+              <span class="board-content text-center">Lorem iadh lorago apagash shakakauk manuae kolanbdhd sjauyt hah gofofo bafofo</span>
+            </div>
+            <img src="images/about2.jpg" width="300px" height="250px" />
+            <div class="d-flex flex-column board about3 align-items-center justify-content-center">
+              <span class="board-title text-center"> Lorem ispum lorago parado </span>
+              <span class="board-content text-center">Lorem iadh lorago apagash shakakauk manuae kolanbdhd sjauyt hah gofofo bafofo</span>
+            </div>
+            <img src="images/about3.jpg" width="300px" height="250px" />
+          </div>
+        </div>
+        <!-- End of the About component -->
+
+        <!-- Our Services section of the application -->
+        <div class="d-flex flex-column chef-body-container">
+          <span class="chef-body-container__title text-center">Our Services</span>
           <div class="d-flex">
-            <a class="d-flex justify-content-between align-items-center chef-theme-button" href="#">
-              <span>
-                Learn More
-              </span>
-            </a>
-            <div class="chef-slide-header__line-seperator align-self-center"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of Header component -->
-
-
-    <!-- First Body component -->
-    <div class="d-flex flex-column chef-first-body">
-      <!-- About Us Section component -->
-      <div class="d-flex flex-column chef-body-container">
-        <span class="chef-body-container__title text-center">About Us</span>
-        <span class="chef-about__title text-center">About out restaurant food</span>
-        <span class="chef-about__sub-title text-center">Lorem ipsumn dolatur isotrye shababala</span>
-
-        <!-- Board component of the About component -->
-        <div class="d-flex chef-about__board">
-          <div class="d-flex flex-column board about1 align-items-center justify-content-center">
-            <span class="board-title text-center"> Lorem ispum lorago parado </span>
-            <span class="board-content text-center">Lorem iadh lorago apagash shakakauk manuae kolanbdhd sjauyt hah gofofo bafofo</span>
-          </div>
-          <img src="images/about1.jpg" width="300px" height="250px" />
-          <div class="d-flex flex-column board about2 align-items-center justify-content-center">
-            <span class="board-title text-center"> Lorem ispum lorago parado </span>
-            <span class="board-content text-center">Lorem iadh lorago apagash shakakauk manuae kolanbdhd sjauyt hah gofofo bafofo</span>
-          </div>
-          <img src="images/about2.jpg" width="300px" height="250px" />
-          <div class="d-flex flex-column board about3 align-items-center justify-content-center">
-            <span class="board-title text-center"> Lorem ispum lorago parado </span>
-            <span class="board-content text-center">Lorem iadh lorago apagash shakakauk manuae kolanbdhd sjauyt hah gofofo bafofo</span>
-          </div>
-          <img src="images/about3.jpg" width="300px" height="250px" />
-        </div>
-      </div>
-      <!-- End of the About component -->
-
-      <!-- Our Services section of the application -->
-      <div class="d-flex flex-column chef-body-container">
-        <span class="chef-body-container__title text-center">Our Services</span>
-        <div class="d-flex">
-          <!-- left section -->
-          <div class="d-flex flex-column chef-body-services__panel-compartment">
-            <div class="d-flex chef-body-services__panel">
-              <span class="chef-body-services__panel-content">Lorem ipsum iahh haga isah naga shajuju patat logoyago patata colipatana pandma Placaret. Quis patonomas shajau</span>
-            </div>
-
-            <div class="d-flex chef-body-services__panel">
-              <span class="chef-body-services__panel-content">Lorem ipsum iahh haga isah naga shajuju patat logoyago patata colipatana pandma Placaret. Quis patonomas shajau</span>
-            </div>
-
-            <div class="d-flex chef-body-services__panel">
-              <span class="chef-body-services__panel-content">Lorem ipsum iahh haga isah naga shajuju patat logoyago patata colipatana pandma Placaret. Quis patonomas shajau</span>
-            </div>
-          </div>
-
-          <!-- right section -->
-          <div class="d-flex chef-body-services__panel-compartment chef-body-services__panel-compartment--right">
-            <img src="images/c1.png" width="200px" height="300px" />
-            <div class="d-flex flex-column chef-body-services__food justify-content-between">
-              <img src="images/service1.jpg" width="200px" height="150px" />
-              <img src="images/service2.jpg" width="200px" height="150px" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End of the Services section -->
-
-      <!-- The Team component -->
-      <div class="d-flex flex-column chef-body-container">
-        <span class="chef-body-container__title text-center">Team</span>
-        <div class="d-flex">
-          <div class="d-flex flex-column chef-body-team__container">
-            <img src="images/team1.jpg" />
-            <span class="chef-body-team__name text-center">James Roy</span>
-            <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
-          </div>
-          <div class="d-flex flex-column chef-body-team__container">
-            <img src="images/team2.jpg" />
-            <span class="chef-body-team__name text-center">John Doel</span>
-            <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
-          </div>
-          <div class="d-flex flex-column chef-body-team__container">
-            <img src="images/team3.jpg" />
-            <span class="chef-body-team__name text-center">Edward Cren</span>
-            <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
-          </div>
-          <div class="d-flex flex-column chef-body-team__container">
-            <img src="images/team4.jpg" />
-            <span class="chef-body-team__name text-center">Lisen Eddy</span>
-            <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of the fifrst body container -->
-
-    <!-- The second body component of the applicatin -->
-    <div class="d-flex flex-column">
-      <!-- The food component of the application -->
-      <div class="d-flex flex-column">
-        <span class="chef-body-container__title text-center">Our Food</span>
-        <div class="d-flex chef-body-foods__container">
-          <div class="chef-body-foods gbenga chef-body-foods__food1">
-            <span class="chef-body-foods__food-main-title">BEEF</span>
-            <span class="chef-body-foods__food-sub-title">WELLINGTON</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food2">
-            <span class="chef-body-foods__food-main-title">REUBEN</span>
-            <span class="chef-body-foods__food-sub-title">SANDWICH</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food3">
-            <span class="chef-body-foods__food-main-title">COBB</span>
-            <span class="chef-body-foods__food-sub-title">SALAD</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food4">
-            <span class="chef-body-foods__food-main-title">EGGS</span>
-            <span class="chef-body-foods__food-sub-title">BENEDICT</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food5">
-            <span class="chef-body-foods__food-main-title">FETTUCINT</span>
-            <span class="chef-body-foods__food-sub-title">ALFREDO</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food6">
-            <span class="chef-body-foods__food-main-title">CHICKEN</span>
-            <span class="chef-body-foods__food-sub-title">MORENGO</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food7">
-            <span class="chef-body-foods__food-main-title">SALISBURY </span>
-            <span class="chef-body-foods__food-sub-title">STEAK</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food8">
-            <span class="chef-body-foods__food-main-title">BOILEDEGG</span>
-            <span class="chef-body-foods__food-sub-title">MINT</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food9">
-            <span class="chef-body-foods__food-main-title">NACHOS </span>
-            <span class="chef-body-foods__food-sub-title">FOOD</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food10">
-            <span class="chef-body-foods__food-main-title">BAKED </span>
-            <span class="chef-body-foods__food-sub-title">SNAPER</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food11">
-            <span class="chef-body-foods__food-main-title">CAESER</span>
-            <span class="chef-body-foods__food-sub-title">SALAD</span>
-          </div>
-          <div class="chef-body-foods chef-body-foods__food12">
-            <span class="chef-body-foods__food-main-title">FRUIT BROWN</span>
-            <span class="chef-body-foods__food-sub-title">BETTY</span>
-          </div>
-        </div>
-      </div>
-      <!--End of food compartment of the application -->
-
-      <!-- The Testimony compartment of the application -->
-      <div class="d-flex flex-column chef-body-testimonies">
-        <span class="text-center chef-body-testimonies__title">Testimonials</span>
-        <div class="d-flex chef-body-testimonies__body">
-          <img src="images/left.png" class="chef-body-testimonies__body-nav align-self-center" />
-
-          <div class="d-flex flex-column chef-body-testimonies__body-content">
-            <div class="text-center">
-              Plaie xvja gahete jhxvkchac hcvkavhchac alhvcvyaica haclviavc hlvchavc havlcac hvlcvac havclhavc havlcyavc hvycavc havycvac
-              hviycvac alvuycva hcyavcahlvc ciya ciavcilac cvlyavca hcyclah
-            </div>
-            <span class="text-center name">DIVID RULE -
-              <span class="role">VISITOR</span>
-            </span>
-          </div>
-
-          <div class="d-flex flex-column chef-body-testimonies__body-content">
-            <div class="text-center">
-              Plaie xvja gahete jhxvkchac hcvkavhchac alhvcvyaica haclviavc hlvchavc havlcac hvlcvac havclhavc havlcyavc hvycavc havycvac
-              hviycvac alvuycva hcyavcahlvc ciya ciavcilac cvlyavca hcyclah
-            </div>
-            <span class="text-center name">DIVID RULE -
-              <span class="role">VISITOR</span>
-            </span>
-          </div>
-
-          <img src="images/right.png" class="chef-body-testimonies__body-nav align-self-center" />
-        </div>
-      </div>
-      <!-- End of the Testimony component of the application -->
-
-      <!-- The Get in Touch component of the application -->
-      <div class="d-flex flex-column">
-        <span class="chef-body-container__title text-center">Get in Touch</span>
-        <div class="d-flex">
-          <div class="d-flex justify-content-end chef-body-contact__compartment--information chef-body-contact__compartment">
-            <div class="d-flex flex-column align-items-start" style="flex-basis: 50%">
-              <span class="title">Contact Information</span>
-              <div class="d-flex section">
-                <!-- add icon here -->
-                <div class="d-flex flex-column">
-                  <span class="section-title">Address</span>
-                  <span>Extended stay Restaurant 57th Tanxas street, Lenaxa</span>
-                </div>
-              </div>
-
-              <div class="d-flex section">
-                <!-- add icon here -->
-                <div class="d-flex flex-column">
-                  <span class="section-title">Mobile</span>
-                  <span>0817317367586</span>
-                  <span>0817317367596</span>
-                </div>
-              </div>
-
-              <div class="d-flex section">
-                <!-- add icon here -->
-                <div class="d-flex flex-column">
-                  <span class="section-title">Email</span>
-                  <span>daveanifowoshe@gmail.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-start chef-body-contact__compartment--form chef-body-contact__compartment">
-            <div class="d-flex flex-column align-items-start chef-body-contact__form" style="flex-basis: 50%">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <input type="number" placeholder="Phone Number" />
-
-              <a class="chef-theme-button" href="#">
-                <span>
-                  Submit
+            <!-- left section -->
+            <div class="d-flex flex-column chef-body-services__panel-compartment">
+              <div class="d-flex chef-body-services__panel">
+                <span class="chef-body-services__panel-content">Lorem ipsum iahh haga isah naga shajuju patat logoyago patata colipatana pandma Placaret. Quis patonomas
+                  shajau
                 </span>
-              </a>
+              </div>
+
+              <div class="d-flex chef-body-services__panel">
+                <span class="chef-body-services__panel-content">Lorem ipsum iahh haga isah naga shajuju patat logoyago patata colipatana pandma Placaret. Quis patonomas
+                  shajau
+                </span>
+              </div>
+
+              <div class="d-flex chef-body-services__panel">
+                <span class="chef-body-services__panel-content">Lorem ipsum iahh haga isah naga shajuju patat logoyago patata colipatana pandma Placaret. Quis patonomas
+                  shajau
+                </span>
+              </div>
+            </div>
+
+            <!-- right section -->
+            <div class="d-flex chef-body-services__panel-compartment chef-body-services__panel-compartment--right">
+              <img src="images/c1.png" width="200px" height="300px" />
+              <div class="d-flex flex-column chef-body-services__food justify-content-between">
+                <img src="images/service1.jpg" width="200px" height="150px" />
+                <img src="images/service2.jpg" width="200px" height="150px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of the Services section -->
+
+        <!-- The Team component -->
+        <div class="d-flex flex-column chef-body-container">
+          <span class="chef-body-container__title text-center">Team</span>
+          <div class="d-flex">
+            <div class="d-flex flex-column chef-body-team__container">
+              <img src="images/team1.jpg" />
+              <span class="chef-body-team__name text-center">James Roy</span>
+              <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
+            </div>
+            <div class="d-flex flex-column chef-body-team__container">
+              <img src="images/team2.jpg" />
+              <span class="chef-body-team__name text-center">John Doel</span>
+              <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
+            </div>
+            <div class="d-flex flex-column chef-body-team__container">
+              <img src="images/team3.jpg" />
+              <span class="chef-body-team__name text-center">Edward Cren</span>
+              <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
+            </div>
+            <div class="d-flex flex-column chef-body-team__container">
+              <img src="images/team4.jpg" />
+              <span class="chef-body-team__name text-center">Lisen Eddy</span>
+              <span class="chef-body-team__content text-center">The lorem spai agulatapabns spaitya is a good froyo abd patapata filauyt kolabodo</span>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End of second compartment -->
+      <!-- End of the fifrst body container -->
+
+      <!-- The second body component of the applicatin -->
+      <div class="d-flex flex-column">
+        <!-- The food component of the application -->
+        <div class="d-flex flex-column">
+          <span class="chef-body-container__title text-center">Our Food</span>
+          <div class="d-flex chef-body-foods__container">
+            <div class="chef-body-foods gbenga chef-body-foods__food1">
+              <span class="chef-body-foods__food-main-title">BEEF</span>
+              <span class="chef-body-foods__food-sub-title">WELLINGTON</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food2">
+              <span class="chef-body-foods__food-main-title">REUBEN</span>
+              <span class="chef-body-foods__food-sub-title">SANDWICH</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food3">
+              <span class="chef-body-foods__food-main-title">COBB</span>
+              <span class="chef-body-foods__food-sub-title">SALAD</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food4">
+              <span class="chef-body-foods__food-main-title">EGGS</span>
+              <span class="chef-body-foods__food-sub-title">BENEDICT</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food5">
+              <span class="chef-body-foods__food-main-title">FETTUCINT</span>
+              <span class="chef-body-foods__food-sub-title">ALFREDO</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food6">
+              <span class="chef-body-foods__food-main-title">CHICKEN</span>
+              <span class="chef-body-foods__food-sub-title">MORENGO</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food7">
+              <span class="chef-body-foods__food-main-title">SALISBURY </span>
+              <span class="chef-body-foods__food-sub-title">STEAK</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food8">
+              <span class="chef-body-foods__food-main-title">BOILEDEGG</span>
+              <span class="chef-body-foods__food-sub-title">MINT</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food9">
+              <span class="chef-body-foods__food-main-title">NACHOS </span>
+              <span class="chef-body-foods__food-sub-title">FOOD</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food10">
+              <span class="chef-body-foods__food-main-title">BAKED </span>
+              <span class="chef-body-foods__food-sub-title">SNAPER</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food11">
+              <span class="chef-body-foods__food-main-title">CAESER</span>
+              <span class="chef-body-foods__food-sub-title">SALAD</span>
+            </div>
+            <div class="chef-body-foods chef-body-foods__food12">
+              <span class="chef-body-foods__food-main-title">FRUIT BROWN</span>
+              <span class="chef-body-foods__food-sub-title">BETTY</span>
+            </div>
+          </div>
+        </div>
+        <!--End of food compartment of the application -->
+
+        <!-- The Testimony compartment of the application -->
+        <div class="d-flex flex-column chef-body-testimonies">
+          <span class="text-center chef-body-testimonies__title">Testimonials</span>
+          <div class="d-flex chef-body-testimonies__body">
+            <img src="images/left.png" class="chef-body-testimonies__body-nav align-self-center" />
+
+            <div class="d-flex flex-column chef-body-testimonies__body-content">
+              <div class="text-center">
+                Plaie xvja gahete jhxvkchac hcvkavhchac alhvcvyaica haclviavc hlvchavc havlcac hvlcvac havclhavc havlcyavc hvycavc havycvac
+                hviycvac alvuycva hcyavcahlvc ciya ciavcilac cvlyavca hcyclah
+              </div>
+              <span class="text-center name">DIVID RULE -
+                <span class="role">VISITOR</span>
+              </span>
+            </div>
+
+            <div class="d-flex flex-column chef-body-testimonies__body-content">
+              <div class="text-center">
+                Plaie xvja gahete jhxvkchac hcvkavhchac alhvcvyaica haclviavc hlvchavc havlcac hvlcvac havclhavc havlcyavc hvycavc havycvac
+                hviycvac alvuycva hcyavcahlvc ciya ciavcilac cvlyavca hcyclah
+              </div>
+              <span class="text-center name">DIVID RULE -
+                <span class="role">VISITOR</span>
+              </span>
+            </div>
+
+            <img src="images/right.png" class="chef-body-testimonies__body-nav align-self-center" />
+          </div>
+        </div>
+        <!-- End of the Testimony component of the application -->
+
+        <!-- The Get in Touch component of the application -->
+        <div class="d-flex flex-column">
+          <span class="chef-body-container__title text-center">Get in Touch</span>
+          <div class="d-flex">
+            <div class="d-flex justify-content-end chef-body-contact__compartment--information chef-body-contact__compartment">
+              <div class="d-flex flex-column align-items-start" style="flex-basis: 50%">
+                <span class="title">Contact Information</span>
+                <div class="d-flex section">
+                  <!-- add icon here -->
+                  <div class="d-flex flex-column">
+                    <span class="section-title">Address</span>
+                    <span>Extended stay Restaurant 57th Tanxas street, Lenaxa</span>
+                  </div>
+                </div>
+
+                <div class="d-flex section">
+                  <!-- add icon here -->
+                  <div class="d-flex flex-column">
+                    <span class="section-title">Mobile</span>
+                    <span>0817317367586</span>
+                    <span>0817317367596</span>
+                  </div>
+                </div>
+
+                <div class="d-flex section">
+                  <!-- add icon here -->
+                  <div class="d-flex flex-column">
+                    <span class="section-title">Email</span>
+                    <span>daveanifowoshe@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-start chef-body-contact__compartment--form chef-body-contact__compartment">
+              <div class="d-flex flex-column align-items-start chef-body-contact__form" style="flex-basis: 50%">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="number" placeholder="Phone Number" />
+
+                <a class="chef-theme-button" href="#">
+                  <span>
+                    Submit
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of second compartment -->
 
 
-    <!--Footer-->
-    <div class="d-flex justify-content-center align-items-center chef-footer">
-      <span>Subscribe to get the latest updates right to your inbox</span>
-      <div class="d-flex chef-footer-form">
-        <input type="email" placeholder="Enter your email" />
-        <a style="height:100%" class="d-flex justify-content-between align-items-center chef-theme-button" href="#">
-          <span>
-            SUBSCRIBE
-          </span>
-        </a>
+      <!--Footer-->
+      <div class="d-flex justify-content-center align-items-center chef-footer">
+        <span>Subscribe to get the latest updates right to your inbox</span>
+        <div class="d-flex chef-footer-form">
+          <input type="email" placeholder="Enter your email" />
+          <a style="height:100%" class="d-flex justify-content-between align-items-center chef-theme-button" href="#">
+            <span>
+              SUBSCRIBE
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="d-flex chef-designer-footer justify-content-between align-items-center">
+        <div class="d-flex">
+          <span>Follow us on:</span>
+        </div>
+
+        <span>
+          &copy; Food chef. All rights reserved | Designed by Gad
+        </span>
       </div>
     </div>
-    <div class="d-flex chef-designer-footer justify-content-between align-items-center">
-      <div class="d-flex">
-        <span>Follow us on:</span>
-      </div>
-
-      <span>
-        &copy; Food chef. All rights reserved | Designed by Gad
-      </span>
-    </div>
-  </div>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
