@@ -1,5 +1,5 @@
 .chef-first-body {
-  margin: 0px 100px;
+  margin: 0px 200px;
 }
 
 .chef-body-container__title {
@@ -54,4 +54,27 @@
 .chef-about__board .board .board-content {
   color: #fff;
   font-size: 13px;
+}
+
+/**
+* Services section of the web application 
+*/
+.chef-body-services__panel {
+  margin-bottom: 30px;
+}
+
+.chef-body-services__panel-content {
+  line-height: 20px;
+}
+
+.chef-body-services__panel-compartment {
+  flex-basis: 50%;
+}
+
+.chef-body-services__panel-compartment--right{
+  margin-left: 100px;
+}
+
+.chef-body-services__food {
+  margin-left: 50px;
 }
