@@ -1,0 +1,12 @@
+.chef-theme-button {
+  height: 50px;
+  background: #8abe01;
+  text-decoration: none;
+  padding: 0px 30px;
+  color: white;
+}
+
+.chef-theme-button:hover {
+  text-decoration: none;
+  color: #fff;
+}

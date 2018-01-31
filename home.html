@@ -10,17 +10,48 @@
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="css/foodchef.css" />
   <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/button.css" />
 </head>
 
 <body>
-  <!-- Header component -->
-  <!-- The navigation fixed header component of the header -->
-  <div class="d-flex flex-column theme-container">
-    <div class="nav-header">
-      
+  <div class="chef-theme-container">
+    <!-- Header component -->
+    <div class="d-flex flex-column ">
+      <!-- The navigation fixed header component of the header -->
+      <div class="chef-nav-header d-flex justify-content-end">
+        <ul class="d-flex align-items-center">
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>SERVICES</li>
+          <li>TEAM</li>
+          <li>OUR FOOD</li>
+          <li>TESTIMONIALS</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+      <!-- The slide header component of the header -->
+      <div class="d-flex flex-column justify-content-between chef-slide-header">
+        <div class="d-flex flex-column">
+          <span class="chef-slide-header__title chef-slide-header__text">WELCOME TO OUR RESTAURANT</span>
+          <span class="chef-slide-header__sub-title chef-slide-header__text">Lorem ispum dolor sit</span>
+          <div class="d-flex">
+            <a class="d-flex justify-content-between align-items-center chef-theme-button" href="#">
+              <span>
+                Learn More
+              </span>
+            </a>
+            <div class="chef-slide-header__line-seperator align-self-center"></div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+    <!-- End of Header component -->
 
+
+    <!-- First Body component -->
+    <div class="d-flex flex-column chef-first-body">
+
+    </div>
 </body>
 
 </html>
