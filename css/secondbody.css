@@ -82,3 +82,115 @@
   display: block;
   background: rgba(0, 0, 0, 0.1);
 }
+
+/**
+* Testimonies 
+*/
+.chef-body-testimonies {
+  height: 300px;
+  background-image: url("../images/stats.jpg");
+  margin-top: 20px;
+  padding: 30px 100px;
+  position: relative;
+  color: #fff;
+  font-size: 13px;
+}
+
+.chef-body-testimonies__title {
+  font-size: 30px;
+  font-family: "Circular Medium";
+}
+
+.chef-body-testimonies:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.chef-body-testimonies__body {
+  margin-top: 10px;
+}
+
+.chef-body-testimonies__body:last-child {
+  margin-left: 100px;
+}
+
+.chef-body-testimonies__body-nav {
+  width: 30px;
+  height: 30px;
+}
+
+.chef-body-testimonies__body-content {
+  margin-left: 100px;
+}
+
+.chef-body-testimonies__body-content .name {
+  margin-top: 30px;
+  font-family: "Circular Medium";
+}
+
+.chef-body-testimonies__body-content .name > .role {
+  font-family: "Circular Light";
+}
+
+/**
+* contact 
+*/
+.chef-body-contact__compartment {
+  flex-basis: 50%;
+  padding: 30px 0px;
+  color: #fff;
+  height: 200px;
+  font-size: 13px;
+}
+
+.chef-body-contact__compartment .section {
+  margin-top: 30px;
+}
+
+.chef-body-contact__compartment .section-title {
+  color: #333;
+  font-family: "Circular Medium";
+}
+
+.chef-body-contact__compartment--information {
+  background: #8abe01;
+  padding-right: 50px;
+}
+
+.chef-body-contact__compartment--form {
+  background-image: url("../images/contact.jpg");
+  padding-left: 50px;
+}
+
+.chef-body-contact__compartment .title {
+  font-size: 20px;
+}
+
+.chef-body-contact__form > input {
+  border-width: 0px;
+  border-bottom: 1px solid #fff;
+  padding-left: 10px;
+  color: #fff;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.chef-body-contact__form > textarea {
+  border-width: 0px;
+  border-bottom: 1px solid #fff;
+  padding-left: 10px;
+  color: #fff;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  margin-bottom: 30px;
+  display: block
+}
