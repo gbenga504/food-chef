@@ -91,7 +91,8 @@
 }
 
 .chef-body-team__container {
-  width: 250px;
+  flex-basis: 24.5%;
+  margin-left: 1px;
 }
 
 .chef-body-team__container > img {
@@ -132,6 +133,9 @@
   .chef-body-services__panel-compartment--right {
     display: none;
   }
+  .chef-body-team__container {
+    flex-basis: 49.5%;
+  }
 }
 
 @media screen and (max-width: 429px) {
@@ -145,5 +149,9 @@
   }
   .chef-body-services__panel-compartment--right {
     display: none;
+  }
+  .chef-body-team__container {
+    flex-basis: 100%;
+    margin-top: 1px;
   }
 }
