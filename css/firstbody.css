@@ -65,14 +65,11 @@
 
 .chef-body-services__panel-content {
   line-height: 20px;
+  font-size: 13px;
 }
 
 .chef-body-services__panel-compartment {
   flex-basis: 50%;
-}
-
-.chef-body-services__panel-compartment--right {
-  margin-left: 100px;
 }
 
 .chef-body-services__food {
@@ -102,6 +99,13 @@
   width: 100%;
 }
 
+@media screen and (min-width: 993px) {
+  .chef-body-services__panel-compartment--right {
+    display: flex;
+    margin-left: 100px;
+  }
+}
+
 @media screen and (min-width: 832px) and (max-width: 992px) {
   .chef-first-body {
     margin: 0px 100px;
@@ -110,6 +114,9 @@
     flex-basis: 49.5%;
     margin: 1px;
     height: 250px;
+  }
+  .chef-body-services__panel-compartment--right {
+    display: none;
   }
 }
 
@@ -122,6 +129,9 @@
     height: 500px;
     margin-top: 1px;
   }
+  .chef-body-services__panel-compartment--right {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 429px) {
@@ -132,5 +142,8 @@
     flex-basis: 100%;
     height: 230px;
     margin-top: 1px;
+  }
+  .chef-body-services__panel-compartment--right {
+    display: none;
   }
 }
