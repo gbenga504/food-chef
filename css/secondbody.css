@@ -117,10 +117,6 @@
   margin-top: 10px;
 }
 
-.chef-body-testimonies__body:last-child {
-  margin-left: 100px;
-}
-
 .chef-body-testimonies__body-nav {
   width: 30px;
   height: 30px;
@@ -200,10 +196,22 @@
   .chef-body-foods {
     flex-basis: 99%;
   }
+  .chef-body-testimonies {
+    padding: 30px 50px;
+  }
+  .chef-body-testimonies__body-content {
+    margin-left: 15px;
+  }
 }
 
 @media screen and (max-width: 429px) {
   .chef-body-foods {
     flex-basis: 99%;
+  }
+  .chef-body-testimonies {
+    padding: 30px 50px;
+  }
+  .chef-body-testimonies__body-content {
+    margin-left: 15px;
   }
 }
