@@ -1,3 +1,12 @@
+/**
+* Written By Anifowoshe Gbenga David 
+* This Css code base uses the conventional (BEM) style 
+* B - Block ; It is basically an entity in its wholelistic form e.g a carousel 
+* E - Element; It is basically the element in an entity e.g a nav button within a carousel
+* M - Modifier; It is basically a modification to an element e.g changing the color of a nav icon 
+* So we could generally have .carousel__navbar--blue 
+*/
+
 .chef-first-body {
   margin: 0px 200px;
 }
