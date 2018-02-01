@@ -32,3 +32,13 @@
   color: #fff;
   font-size: 12px;
 }
+
+@media screen and (max-width: 429px) {
+  .chef-footer {
+    flex-direction: column;
+  }
+
+  .chef-footer-form {
+    margin-left: 0px;
+  }
+}
