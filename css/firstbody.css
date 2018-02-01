@@ -23,6 +23,11 @@
   margin-top: 5px;
 }
 
+.chef-about-background-images {
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .chef-about__board {
   flex-wrap: wrap;
   margin-top: 30px;
