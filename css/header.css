@@ -49,7 +49,15 @@
 .chef-nav-header ul > li {
   margin-right: 15px;
   font-size: 11px;
+}
+
+.chef-nav-header ul > li > a {
+  text-decoration: none;
   color: #fff;
+}
+
+.chef-nav-header ul > li > a:hover {
+  text-decoration: none;
 }
 
 .chef-nav-header ul > li:last-child {
