@@ -88,7 +88,7 @@
 * Testimonies 
 */
 .chef-body-testimonies {
-  height: 300px;
+  padding: 100px 0px;
   background-image: url("../images/stats.jpg");
   margin-top: 20px;
   padding: 30px 100px;
@@ -142,7 +142,6 @@
   flex-basis: 50%;
   padding: 30px 0px;
   color: #fff;
-  height: 200px;
   font-size: 13px;
 }
 
@@ -213,5 +212,8 @@
   }
   .chef-body-testimonies__body-content {
     margin-left: 15px;
+  }
+  .chef-contact-overall-container {
+    flex-direction: column;
   }
 }

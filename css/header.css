@@ -34,10 +34,6 @@
   margin-right: 0px;
 }
 
-.chef-slide-header {
-  position: relative;
-}
-
 .chef-slide-header > div {
   z-index: 1;
 }
